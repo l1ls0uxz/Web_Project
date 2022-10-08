@@ -4,10 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <h1 class="bg-red-200 text-3xl font-bold underline text-white text-center">
-    Hello, we're StarDev!
-  </h1>
+  <!-- Navbar -->
+  <nav class="py-4">
+    <div class="container mx-auto px-2 flex justify-between">
+      <div>
+        <h1 class="text-3xl font-pacifico">StarDev</h1>
+      </div>
+      <div>
+        <ul class="flex space-x-4 text-lg">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Document</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Banner Section -->
+  <section id="banner" class="bg-[#FF87B2] flex py-16">
+  <div class="container mx-auto px-2 flex">
+    <div class="w-1/2 flex-col flex justify-center">
+      <div class="pr-8">
+        <h3 class="text-[#FFE898] text-xl uppercase italic py-2">
+          Something special is about to happen here!</h3>
+        <h1 class="text-white text-4xl font-bold py-3">
+          Welcome to StarDev</h1>
+        <p class="text-white pb-4">
+          //On buiding...</p>  
+        <a class="bg-[#FFE898] text-[#F65A83] inline-block px-6 py-2" href="#">
+          Learn more</a>
+      </div>
+    </div>
+    <div class="w-1/2">
+      <img class="w-full rounded-xl" src="/dist/imgs/FF87B2.svg" alt="banner">
+    </div>
+  </div>
+  </section>
 </body>
 </html>

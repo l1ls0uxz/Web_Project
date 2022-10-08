@@ -1,0 +1,14 @@
+{
+  "name": "iot_project",
+  "version": "1.0.0",
+  "description": "IoT Project Webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StarDev",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}

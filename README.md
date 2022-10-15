@@ -1,1 +1,2 @@
-# IoT_Project
+# IoT Project
+- About this project
